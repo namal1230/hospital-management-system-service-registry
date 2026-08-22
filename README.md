@@ -1,5 +1,8 @@
 # Hospital Management System - Service Registry
 
+<img width="1912" height="1018" alt="Screenshot 2026-08-22 072225" src="https://github.com/user-attachments/assets/56f11798-207e-44c4-817b-67713d8dbf4d" />
+
+
 This repository contains the Service Registry component for the Hospital Management System. The service registry enables microservices to discover and register with each other (Eureka) and includes Spring Cloud configuration support in the project POM.
 
 > Note: This README was generated from the repository's pom.xml. Double-check the dependency choices in the pom (e.g., `spring-cloud-starter-config` vs `spring-cloud-config-server`) to ensure they match the intended role (config client vs config server).
