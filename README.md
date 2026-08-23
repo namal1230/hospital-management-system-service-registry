@@ -69,7 +69,7 @@ Place the following configuration in `src/main/resources/application.yml` (or `a
 
 ```yaml
 server:
-  port: 8761
+  port: 9001
 
 spring:
   application:
