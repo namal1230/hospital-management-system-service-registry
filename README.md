@@ -4,7 +4,8 @@
 <br>
 <br>
 <br>
-<img width="1912" height="1018" alt="Screenshot 2026-08-22 072225" src="https://github.com/user-attachments/assets/56f11798-207e-44c4-817b-67713d8dbf4d" />
+<img width="1182" height="1412" alt="Screenshot 2026-08-23 080015" src="https://github.com/user-attachments/assets/99379665-cef6-4013-a62e-970212f8b349" />
+
 
 
 This repository contains the Service Registry component for the Hospital Management System. The service registry enables microservices to discover and register with each other (Eureka) and includes Spring Cloud configuration support in the project POM.
