@@ -1,5 +1,8 @@
 # Hospital Management System - Service Registry
 
+Version: 0.0.1-SNAPSHOT  
+Last updated: 2026-08-23
+
 <img width="877" height="601" alt="Screenshot 2026-08-22 215929" src="https://github.com/user-attachments/assets/b43a4e95-4e45-4758-9e50-dcfc3df78f8c" />
 <br>
 <br>
@@ -8,9 +11,9 @@
 
 
 
-This repository contains the Service Registry component for the Hospital Management System. The service registry enables microservices to discover and register with each other (Eureka) and includes Spring Cloud configuration support in the project POM.
+This repository contains the Service Registry component for the Hospital Management System. The service registry enables microservices to discover and register with each other (Eureka) and include[...]
 
-> Note: This README was generated from the repository's pom.xml. Double-check the dependency choices in the pom (e.g., `spring-cloud-starter-config` vs `spring-cloud-config-server`) to ensure they match the intended role (config client vs config server).
+> Note: This README was generated from the repository's pom.xml. Double-check the dependency choices in the pom (e.g., `spring-cloud-starter-config` vs `spring-cloud-config-server`) to ensure they[...]
 
 ## Project overview
 
@@ -24,7 +27,7 @@ This repository contains the Service Registry component for the Hospital Managem
   - org.springframework.cloud:spring-cloud-starter-config (present in pom; typically used for config client)
   - org.springframework.boot:spring-boot-starter-test (test scope)
 
-This module is intended to act as a Eureka service registry for the Hospital Management System microservices. It may also be configured to act as a Config Server or include a config client depending on intended architecture.
+This module is intended to act as a Eureka service registry for the Hospital Management System microservices. It may also be configured to act as a Config Server or include a config client dependi[...]
 
 ## Prerequisites
 
@@ -85,7 +88,7 @@ eureka:
 
 ## If you intend to include a Config Server
 
-The POM currently includes `spring-cloud-starter-config` which is usually the config *client* starter. If your goal is to host a centralized configuration server, replace or add the `spring-cloud-config-server` dependency and annotate your main application class with `@EnableConfigServer`.
+The POM currently includes `spring-cloud-starter-config` which is usually the config *client* starter. If your goal is to host a centralized configuration server, replace or add the `spring-cloud-[...]
 
 Example (pom snippet for config server):
 
@@ -162,7 +165,7 @@ management:
 
 - Ensure the Spring Cloud version is compatible with your Spring Boot parent version. The POM uses Spring Boot 4.1.0 and Spring Cloud 2025.1.2 — verify compatibility if you change versions.
 - If you see class or dependency errors related to Netflix Eureka, confirm the Spring Cloud BOM is imported correctly (the POM contains `spring-cloud-dependencies` in dependencyManagement).
-- If you intend to serve both Eureka and Config Server responsibilities from the same app, be sure to configure both properly and understand the implications for startup order and bootstrap configuration.
+- If you intend to serve both Eureka and Config Server responsibilities from the same app, be sure to configure both properly and understand the implications for startup order and bootstrap confi[...]
 
 ## Contributing
 
