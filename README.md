@@ -1,5 +1,9 @@
 # Hospital Management System - Service Registry
 
+<img width="877" height="601" alt="Screenshot 2026-08-22 215929" src="https://github.com/user-attachments/assets/b43a4e95-4e45-4758-9e50-dcfc3df78f8c" />
+<br>
+<br>
+<br>
 <img width="1912" height="1018" alt="Screenshot 2026-08-22 072225" src="https://github.com/user-attachments/assets/56f11798-207e-44c4-817b-67713d8dbf4d" />
 
 
