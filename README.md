@@ -1,7 +1,7 @@
 # Hospital Management System - Service Registry
 
-Version: 0.0.1-SNAPSHOT  
-Last updated: 2026-08-23
+Version: 1.0.0
+Last Updated: August 23, 2026
 
 <img width="877" height="601" alt="Screenshot 2026-08-22 215929" src="https://github.com/user-attachments/assets/b43a4e95-4e45-4758-9e50-dcfc3df78f8c" />
 <br>
